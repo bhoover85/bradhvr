@@ -43,7 +43,7 @@
 include('page/nav.php');
 
 if ($page != '' && $page != 'home') {
-	echo '<div class="section container background">';
+	echo '<main class="section container background">';
 }
 
 switch($page) {
@@ -63,7 +63,7 @@ switch($page) {
 
 if ($page != '' && $page != 'home') {
 	include('page/social.php');
-	echo '</div>';
+	echo '</main>';
 }
 
 ?>

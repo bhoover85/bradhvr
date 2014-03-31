@@ -248,14 +248,9 @@ img.grayscale:hover {
 .video {
     position: relative;
     padding-bottom: 56.25%;
-    padding-top: 30px; 
-    height: 0; 
-    overflow: hidden;
 }
  
-.video iframe,
-.video object,
-.video embed {
+.video iframe {
     position: absolute;
     top: 0;
     left: 2.5%;
@@ -314,4 +309,25 @@ ul.report {
 	form {
 		width: 95%;
 	}
+}
+
+
+
+/********/
+/* Blog */
+/********/
+
+article h1 {
+    color: #82c5ff;
+}
+
+pre {
+    color: #fff;
+    background-color: #333;
+    border: 1px solid #cccccc;
+}
+
+code {
+    color: #333;
+    background-color: #eee;
 }
