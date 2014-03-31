@@ -12,7 +12,7 @@
 <div class="clearfix"></div>
 
 <p>
-Casualties of the Gridiron is a documentary series by Isaac Solotaroff that was aired by <a href="http://www.gq.com/">GQ</a>. It follows a group of retired NFL players battling chronic pain, drug addiction and brain trauma. The series chronicles their journey back to health and redemption through the support of one another and a group of dedicated medical professionals.
+Casualties of the Gridiron is an Emmy nominated documentary series by Isaac Solotaroff that was aired by <a href="http://www.gq.com/">GQ</a>. It follows a group of retired NFL players battling chronic pain, drug addiction and brain trauma. The series chronicles their journey back to health and redemption through the support of one another and a group of dedicated medical professionals.
 </p>
 
 <p>

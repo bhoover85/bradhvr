@@ -36,7 +36,7 @@ elseif ($page != '' && $item != '') {
 		break;
 	};
 
-	$pageTitle = $projName . " | " . ucwords($page) . " - " . $title;
+	$pageTitle = $projName . " - " . $title;
 }
 else {
 	$pageTitle = $title;
