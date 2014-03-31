@@ -1,0 +1,5 @@
+Theme name:     bradhvr
+Description:    Custom theme by Brad Hoover
+Author name:    Brad Hoover
+Author site:    http://bradhvr.com
+License:        http://licence.visualidiot.com
