@@ -28,4 +28,18 @@
 			<?php endif; ?>
 		</section>
 
+		<nav class="prev_next">
+			<div class="pull-left">
+				<?php if (article_previous_url()) { ?>
+						<a href="<?php echo article_previous_url(); ?>"><i class="arrow fa fa-long-arrow-left"></i><?php echo article_previous_title(); ?></a>
+				<?php } ?>
+			</div>
+
+			<div class="pull-right">
+				<?php if (article_next_url()) { ?>
+						<a href="<?php echo article_next_url(); ?>"><?php echo article_next_title(); ?><i class="arrow fa fa-long-arrow-right"></i></a>
+				<?php } ?>
+			</div>
+		</nav>
+
 <?php theme_include('footer'); ?>
