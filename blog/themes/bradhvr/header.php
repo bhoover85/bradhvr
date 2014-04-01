@@ -47,5 +47,13 @@
 
 <div class="section container background">
 
-<h1 class="text-center">Articles</h1>
-<hr>
+<?php if (page_title() == 'Blog') { ?>
+		<h1 class="text-center">Blog</h1><hr>
+<?php }
+	else { ?>
+		<div class="text-center">
+			<h1><?php echo article_title(); ?></h1>
+			<h5><i class="fa fa-calendar"></i> <?php echo article_date(); ?> &emsp; <i class="fa fa-folder"></i> <?php echo article_category(); ?></h5>
+		</div>
+		<hr>
+<?php } ?>

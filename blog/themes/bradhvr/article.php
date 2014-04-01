@@ -2,8 +2,6 @@
 
 		<section class="content">
 			<article>
-		    	<h1><?php echo article_title(); ?></h1>
-		        <h5><?php echo article_date(); ?></h5>
 			    <?php echo article_markdown(); ?>
 			    <?php echo article_custom_field('attribution'); ?>
 			</article>
