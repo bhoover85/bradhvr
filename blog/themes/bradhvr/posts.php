@@ -15,9 +15,17 @@
 		<section class="pagination">
 			<?php if(has_pagination()) : ?>
 			    <nav class="pagination">
-			        <?php echo posts_prev(); ?>
-			        <?php echo posts_next(); ?>
-			    </nav>
+					<div class="row">
+						<div class="container">
+							<div class="pull-left">
+								<?php echo posts_prev(); ?>
+							</div>
+							<div class="pull-right">
+								<?php echo posts_next(); ?>
+							</div>
+						</div>
+					</div>
+				</nav>
 			<?php endif; ?>
 		</section>
 

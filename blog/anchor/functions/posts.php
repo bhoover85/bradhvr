@@ -23,7 +23,7 @@ function posts() {
 	return $result;
 }
 
-function posts_next($text = 'Next &rarr;', $default = '') {
+function posts_next($text = 'Next<i class="arrow fa fa-long-arrow-right"></i>', $default = '') {
 	$total = Registry::get('total_posts');
 	$offset = Registry::get('page_offset');
 	$per_page = Config::meta('posts_per_page');
@@ -40,7 +40,7 @@ function posts_next($text = 'Next &rarr;', $default = '') {
 	return $pagination->prev_link($text, $default);
 }
 
-function posts_prev($text = '&larr; Previous', $default = '') {
+function posts_prev($text = '<i class="arrow fa fa-long-arrow-left"></i>Previous', $default = '') {
 	$total = Registry::get('total_posts');
 	$offset = Registry::get('page_offset');
 	$per_page = Config::meta('posts_per_page');

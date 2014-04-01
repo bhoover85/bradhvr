@@ -29,16 +29,20 @@
 		</section>
 
 		<nav class="prev_next">
-			<div class="pull-left">
-				<?php if (article_previous_url()) { ?>
-						<a href="<?php echo article_previous_url(); ?>"><i class="arrow fa fa-long-arrow-left"></i><?php echo article_previous_title(); ?></a>
-				<?php } ?>
-			</div>
+			<div class="row">
+				<div class="container">
+					<div class="pull-left">
+						<?php if (article_next_url()) { ?>
+								<a href="<?php echo article_next_url(); ?>"><i class="arrow fa fa-long-arrow-left"></i><?php echo article_next_title(); ?></a>
+						<?php } ?>
+					</div>
 
-			<div class="pull-right">
-				<?php if (article_next_url()) { ?>
-						<a href="<?php echo article_next_url(); ?>"><?php echo article_next_title(); ?><i class="arrow fa fa-long-arrow-right"></i></a>
-				<?php } ?>
+					<div class="pull-right">
+						<?php if (article_previous_url()) { ?>
+								<a href="<?php echo article_previous_url(); ?>"><?php echo article_previous_title(); ?><i class="arrow fa fa-long-arrow-right"></i></a>
+						<?php } ?>
+					</div>
+				</div>
 			</div>
 		</nav>
 
