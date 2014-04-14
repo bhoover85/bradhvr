@@ -317,6 +317,14 @@ ul.report {
 /* Blog */
 /********/
 
+.content article {
+    margin-bottom: 25px;
+}
+
+.content article:last-child {
+    margin-bottom: 0;
+}
+
 article h1 {
     color: #82c5ff;
 }
@@ -330,4 +338,11 @@ pre {
 code {
     color: #fff;
     background-color: #000;
+}
+
+/* Landscape phones and down */
+@media (max-width: 767px) {
+	article h3 {
+		font-size: 18px;
+	}
 }
