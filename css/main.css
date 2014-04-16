@@ -325,6 +325,14 @@ ul.report {
     margin-bottom: 0;
 }
 
+.fa-folder {
+    padding: 0 5px;
+}
+
+.fa-calendar {
+    padding: 0 5px;
+}
+
 article h1 {
     color: #82c5ff;
 }
