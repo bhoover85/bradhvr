@@ -321,9 +321,9 @@ ul.report {
     margin-bottom: 25px;
 }
 
-.content article:last-child {
-    margin-bottom: 0;
-}
+    .content article:last-child {
+        margin-bottom: 0;
+    }
 
 .fa-folder {
     padding: 0 5px;
@@ -332,6 +332,16 @@ ul.report {
 .fa-calendar {
     padding: 0 5px;
 }
+
+.published-info {
+    display: inline-block;
+    text-align: left;
+}
+
+    .published-info:first-child {
+        width: 140px;
+        margin: 0;
+    }
 
 article h1 {
     color: #82c5ff;

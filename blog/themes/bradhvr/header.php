@@ -53,7 +53,15 @@
 	else { ?>
 		<div class="text-center">
 			<h1><?php echo article_title(); ?></h1>
-			<h5><i class="fa fa-calendar"></i><?php echo article_date(); ?> &emsp; <a href="/blog/category/<?php echo substr(article_category_slug(), strrpos(article_category_slug(), '/')); ?>"><i class="fa fa-folder"></i><?php echo article_category(); ?></a></h5>
+			<h5>
+	        	<div class="published-info">
+	        		<i class="fa fa-calendar"></i><?php echo article_date(); ?>
+	        	</div>
+
+	        	<div class="published-info">
+	        		<a href="/blog/category/<?php echo substr(article_category_slug(), strrpos(article_category_slug(), '/')); ?>"><i class="fa fa-folder"></i><?php echo article_category(); ?></a>
+	        	</div>
+        	</h5>
 		</div>
 		<hr>
 <?php } ?>
