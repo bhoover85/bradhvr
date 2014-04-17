@@ -317,6 +317,10 @@ ul.report {
 /* Blog */
 /********/
 
+.category-name {
+    clear: both;
+}
+
 .content article {
     margin-bottom: 25px;
 }
@@ -345,6 +349,21 @@ ul.report {
 
 article h1 {
     color: #82c5ff;
+}
+
+.content article:first-child h3 {
+    margin-top: -10px;
+}
+
+.categories {
+    margin-top: -20px;
+}
+
+/* Landscape phones and down */
+@media (max-width: 767px) {
+    .categories {
+        margin-top: 50px;
+    }
 }
 
 pre {
