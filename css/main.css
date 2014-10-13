@@ -208,6 +208,12 @@ form {
     margin-top: 40px;
 }
 
+.watson-quote {
+    position: relative;
+    top: 10px;
+    width: 400px;
+}
+
 
 /*************/
 /* Portfolio */

@@ -1,27 +1,27 @@
 <h1 class="text-center">About</h1>
 <hr>
 
-<!-- <div class="center-block">
+<p class="lead">
+My name is Brad Hoover and I live in <a href="http://en.wikipedia.org/wiki/Beacon,_New_York">Beacon, New York</a>.
+</p>
+
+<p>
+I love web development. The web is my sandbox and the languages that power it are my tools. There's something about building a concept into a product that's both functional and beautiful that is incredibly motivating. I find myself learning new tricks and techniques with every project and I hope that never changes. 
+</p>
+
+<div class="center-block watson-quote">
 	<blockquote>
 		<p>"There is no saturation point in education."</p>
 		<footer>IBM Founder, Thomas J. Watson, Sr.</cite></footer>
 	</blockquote>
-</div> -->
-
-<p class="lead">
-My name is Brad Hoover and I live in <a href="http://en.wikipedia.org/wiki/Poughkeepsie,_New_York">Poughkeepsie, New York</a>.
-</p>
-
-<p>
-I love developing websites! Transforming a concept into a functional and pleasing product gives me a great sense of satisfaction. Each project is a learning experience that motivates me to bring out the best that I have to offer.
-</p>
+</div>
 
 <p class="lead work">
 Do you need some work done?
 </p>
 
 <p>
-I have experience with <strong>HTML, CSS, PHP, jQuery, MySQL, Photoshop</strong> and more. I feel most comfortable writing code, but will dabble with design from time to time. You can <a href="/portfolio">check out my previous work</a> or contact me using one of the methods below. I look forward to hearing from you!
+I have experience with <strong>HTML, CSS, PHP, jQuery, MySQL, Photoshop</strong> and more. I feel most comfortable writing code, but will dabble with design from time to time. You can <a href="/portfolio">check out my previous work</a> or contact me using one of the methods below.
 </p>
 
 <form class="form-horizontal" role="form" id="contact-form" method="post" action="page/contact.php">
